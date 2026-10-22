@@ -15,4 +15,4 @@ async function connectDB(){
   }
 
 
-module.exports= conneectDB;
+module.exports= connectDB;
