@@ -2,7 +2,13 @@ const userModel= require("../models/user.model");
 const jwt=require('jsonwebtoken')
 async function registerUser(req,res) {
     const{username,email,password} =req.body;
-    
+    const isUserExists = await userModel.findOne({email})
+    if(isUserExists){
+        return res.status(409).json({
+            message:"User already exists"
+        }
+        )
+    }
     const user=await userModel.create({
         username,
         email,
@@ -13,6 +19,7 @@ async function registerUser(req,res) {
         id:user._id
         
     },process.env.JWT_SECRET)
+    res.cookie("token",token )
 
     res.status(201).json({
         message:"USER REGISTERED SUCCESSFULLY",
