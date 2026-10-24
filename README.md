@@ -32,7 +32,7 @@ Building my backend skills one concept, API, and project at a time.
 
 ### Overall roadmap
 
-![Overall Progress](https://progress-bar.xyz/33/?title=Overall%20Roadmap&width=500&color=6C3CE9&suffix=%25)
+![Overall Progress](https://progress-bar.xyz/50/?title=Overall%20Roadmap&width=500&color=6C3CE9&suffix=%25)
 
 | Stage | Status | Progress |
 | :--- | :--- | :---: |
