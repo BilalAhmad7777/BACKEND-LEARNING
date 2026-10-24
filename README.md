@@ -40,7 +40,7 @@ Building my backend skills one concept, API, and project at a time.
 | 🟡 **Intermediate** | In progress | ![50](https://img.shields.io/badge/50%25-3da5ff?style=flat-square&labelColor=07070d) |
 | ⚪ **Advanced** | Pending | ![0](https://img.shields.io/badge/0%25-ff3b4e?style=flat-square&labelColor=07070d) |
 
-*Overall roadmap progress is approximately 33% when the three stages are
+*Overall roadmap progress is approximately 50% when the three stages are
 weighted equally. Intermediate progress is an initial estimate and can
 be updated as I complete topics.*
 
