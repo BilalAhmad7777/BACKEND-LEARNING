@@ -147,7 +147,7 @@ git clone https://github.com/BilalAhmad7777/BACKEND-LEARNING.git
 cd BACKEND-LEARNING
 
 # Enter the specific project folder
-cd BACKEND/3rd-part
+cd BACKEND-LEARNING/3rd-part
 
 npm install
 npm run dev
